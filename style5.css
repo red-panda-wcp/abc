@@ -1,0 +1,68 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.image{
+	background-image: url(image/no_image.jpg);
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.text-center{
+	text-align: center;
+}
+.cart-button{
+	background-color: #8080806e;
+	width: 120px;
+	color: white;
+}
+.kesuyatu{
+	display: inline-block;
+}
+.qkesuyatu{
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+	bottom: 50px;
+}
+.wkesuyatu{
+	display: inline-block;
+	margin-left: 300px;
+	position: relative;
+	bottom: 30px;
+}
+.title{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.submit-button{
+	background-color: black;
+	width: 120px;
+	color: white;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+.user-index{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.user-index-search{
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.user-index-button{
+	background-color: #8080806e;
+	width: 40px;
+	color: white;
+}
+.user-index-button2{
+	background-color: #8080806e;
+	width: 130px;
+	color: white;
+}
