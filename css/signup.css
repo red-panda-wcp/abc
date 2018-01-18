@@ -1,0 +1,26 @@
+.form_base {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.form {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.link_space {
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+}
+
+.form_style {
+    width: 360px;
+}
+.form_style_half {
+    width: 180px;
+    margin: none;
+}

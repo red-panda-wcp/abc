@@ -1,0 +1,22 @@
+.form_base {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -200px;
+}
+
+.form {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.link_space {
+    height: 100px;
+    padding: 30px;
+}

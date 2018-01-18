@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>会員情報変更</title>
+  <link rel="stylesheet" href="css/sign_common.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+  <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+
+  <div class="form_base">
+
+    <div class="form">
+      <h1 class="form_name">会員情報変更</h1>
+      <div class="form_msg"></div>
+      <div class="form_body">
+        <input type="email" name="email" placeholder="Email address" class="form_style form_input"><br>
+        <input type="password" name="password" placeholder="Password" class="form_style form_input"><br>
+
+    <form class="h-adr">
+      <span class="p-country-name" style="display:none;">Japan</span>
+        <input type="text" name="potal_code" placeholder="郵便番号" class="form_style form_input p-postal-code" maxlength="8"><br>
+        <input type="text" name="address" placeholder="住所" class="form_style form_input p-region p-locality p-street-address p-extended-address"><br>
+    </form>
+    <!-- 住所自動設定ツール参考：https://github.com/yubinbango/yubinbango -->
+
+
+        <input type="text" name="firstname" placeholder="名字" class="form_style_half form_input">
+        <input type="text" name="lastname" placeholder="名前" class="form_style_half form_input"><br>
+        <input type="text" name="firstname" placeholder="名字カナ" class="form_style_half form_input">
+        <input type="text" name="lastname" placeholder="名前カナ" class="form_style_half form_input"><br>
+        <input type="tel" name="tel" placeholder="TEL" class="form_style form_input"><br>
+
+
+        <button type="submit" class="btn">変更</button>
+        <p class="form_word">Forgotten your passwords?</p>
+      </div>
+    </div>
+
+    <div class="link_space">
+          <p class="form_word">Do you have an account?</p>
+          <p class="form_word">Create an account</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
